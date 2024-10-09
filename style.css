@@ -1,0 +1,33 @@
+body {
+    background-color: darkorange;
+    color: black;
+    font-family: "Comic Neue", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+background-color: rgba(0, 0, 255, 0.61);
+color: white;
+font-family: "Comic Neue", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
